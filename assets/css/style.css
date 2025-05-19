@@ -152,6 +152,13 @@ hr { border-top: 1px solid #3a3a3a;
     max-height: 300px;
 }
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
