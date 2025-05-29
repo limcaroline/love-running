@@ -280,15 +280,29 @@ hr { border-top: 1px solid #3a3a3a;
         align-self: flex-end;
     }
 
-    /* Media query: laptops and larger (992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+    /* Gallery */
+    #photos {
+        column-count: 3;
     }
 
-    /* Media query: laptops and larger (1200px and up) */
-    @media screen and (min-width: 1200px) {
+}
+
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+}
+
+
+/* Media query: laptops and larger (1200px and up) */
+@media screen and (min-width: 1200px) {
         /* Reasons section */
         #benefits {
             display: flex;
@@ -315,6 +329,5 @@ hr { border-top: 1px solid #3a3a3a;
             align-self: flex-end;
 
         }
-    }
-        
-    }
+}
+
